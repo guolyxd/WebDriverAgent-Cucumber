@@ -1,0 +1,45 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3839220780,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Demo.stepInit()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Open Baidu home page",
+        "description": "",
+        "id": "open-baidu;open-baidu-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13410736614,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open baidu from safari",
+            "match": {
+              "location": "Demo.Open_baidu_from_safari()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Open baidu",
+    "description": "",
+    "id": "open-baidu",
+    "keyword": "Feature",
+    "uri": "demo.feature"
+  }
+]
